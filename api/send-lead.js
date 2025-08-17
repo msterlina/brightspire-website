@@ -12,7 +12,7 @@ module.exports = async (req, res) => {
 
     await resend.emails.send({
       from: 'Brightspire Leads <onboarding@resend.dev>', 
-      to: ['YOUR_EMAIL@example.com'], // <<< REPLACE WITH YOUR VERIFIED EMAIL
+      to: ['maylotward@gmail.com'], // <<< REPLACE WITH YOUR VERIFIED EMAIL
       subject: `New Fit Assessment Lead: ${data.contact_name}`,
       html: `
         <h1>New Fit Assessment Lead</h1>
